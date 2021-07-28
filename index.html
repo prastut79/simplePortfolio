@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Home -Zerod </title>
+	<meta name="description" content="Portfolio"/>
+	<meta name="keywords" content="blog, technology, zerod"/>
+	<meta name="author" content="Prastut"/>
+
+	<!-- adding website logo to the title bar-->
+	<link rel="icon" href="images/logo.png">
+
+	<!-- importing external style.css file-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+	
+	
+	<!--using internal css-->
+	<style type="text/css">
+		/*setting default value for the h1 tag*/
+		h1{
+			color: #00D3C2; 
+			text-align: center; 
+			font-weight: 1000; 
+			font-size: 90px; 
+			font-family: candara;
+		}
+
+		/*setting default value for the p tag*/
+		p{
+			color: #8d9399; 
+			text-align: center;  
+			font-size: 25px; 
+			font-family: garamond;
+			line-height: 1.8;
+			float: center;
+		}
+
+		/*adding css to all buttons of main class*/
+		.main-button{
+			display: inline-block;
+			font-family: Century Gothic;
+			text-decoration: none;
+			color: #6b6e70;
+			font-weight: 550px;
+			padding: 10px 20px;
+			border-radius: 1px;
+			box-shadow: 0px 0px 4px #808080;
+			text-transform: uppercase;
+		}
+
+		/*adding hover effect on the buttons*/
+		.main-button:hover{
+			transition: 0.5s;
+			color: #D7E9EA;
+			box-shadow: 0px 0px 6px  #00D3C2;
+			text-shadow: 0px 0px 2px #00D3C2;
+		}
+
+	</style>
+	
+</head>
+<!--closing of head tag-->	
+
+<!--opening of body tag-->
+<body style="background-color:#00D3C2;">
+	<!--the header section-->
+	<header>
+		<!--creating division for navigation bar-->
+		<nav class="nav">
+			<!--creating division and inserting website logo-->
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt=""></a>
+			</div>
+
+			<!--declaring unordered list for navigation buttons-->
+			<div class="nav-buttons">
+			<ul>
+				<!--adding nav buttons-->
+				<li class="active-nav"><a href="index.html">Home</a></li>
+				<li><a href="pages/cv.html">CV</a></li>
+				<li><a href="pages/blog.html">Blog</a></li>
+				<li><a href="pages/research.html">Research</a></li>	
+				<li><a href="pages/contact.html">Contact</a></li>
+			</ul>
+		</nav>
+
+	</header>
+	<!--end of header section-->
+
+	<!--opening of the main section-->
+	<section>
+		<!--a division created to counter the overlapping problem caused by the fixed header-->
+		<div class="godown" style="height: 70px"></div>
+		<!--div for first page of the webpage-->
+		<div class="main-cv">
+
+			<!--declaring next division for about me and picture-->
+			<div class="class">
+				<h1 style="padding: 100px 0 12px 0; font-size: 120px;"><span style="color: #8d9399;">hi!</span> i'm Zerod</h1>
+
+				<!--div created to draw a half margin-->
+				<div style="border: 1px solid #00D3C2; width: 200px; margin: 0 0 0 60px;"></div>
+
+				<p style="padding: 50px 30px 10px 30px;">My name is Zerod. I'm a Graphics Designer and a photographer currently living in Osaka, Japan. I work for <i>Wit Studio</i> as the head graphic designer. I gathered my first experience in this studio while working as the assitant graphic designer in the project <i>Vinland Saga.</i> I have also been part of world renowned projects like <i> Naruto, Tokyo Ghoul, AOT </i> and <i> Code Geass.</i>
+				</p>
+				<br><br>
+
+				<!--division for the read more button-->
+				<div class="" style="float: center;">
+					<span style="margin: 0 0 0 320px;"><a href="pages/cv.html" class="main-button">Read More</a></span>
+				</div>
+			</div>
+			<!--division for the image-->
+			<div class="pic">
+				<img src="images/home1.png">
+			</div>
+		</div>
+		<!--end of first page-->
+
+		<!--div for the second page-->
+		<div class="main-blog" style=";">
+			<h1 style="padding: 30px 0 0 70px; text-align:left;">What's new..</h1>
+			<!--div created to draw a half margin-->
+			<div style="border: 1px solid #00D3C2; width: 120px; margin: 0 0 0 75px;"></div>
+			
+			<!--div for the first blog box-->
+			<a href="pages/blog.html#first"><div class="home-post">
+				<div class="blog-post1-img"></div>
+				<p>The society has been changed a lot after the evolution of technology. Before the arrival of modern technology, life was hard and doing everyday works consumed way too much of our time than it foes in the present time. The access to education, medicine, industry, transportation etc. has been simplified due to modern day technology. Due to the conv....</p>
+			</div></a>
+
+			<!--div for the first blog box-->
+			<a href="pages/blog.html#second"><div class="home-post">
+				<div class="blog-post2-img"></div>
+				<p>The Internet is a global wide area network that connects computer systems across the world. Internet has become increasing popular for many uses such as business marketing, online shopping and education and every other aspect. It is the main source of communication and connecting with each other. It is a network that consists of millions of private and...</p>
+			</div></a>
+
+			<!--creating a div for readmore button-->
+			<div class="blog-btn">
+				<a href="pages/blog.html" class="main-button"> Read more</a>
+			</div>
+		</div>
+		<!--end of second page(BLOG) div-->
+
+		<!--creating new div for 3rd page of the webpage(research)-->
+		<div class="main-research">
+			<h1 style="padding: 30px 0 0 70px; text-align:left;">Research</h1>
+			<!--div created to draw a half margin-->
+			<div style="border: 1px solid #00D3C2; width: 150px; margin: 0 0 0 75px;"></div>
+
+				<!--div for the first research box-->
+			<a href="pages/research.html#homepage"><div class="home-post">
+				<!--creating a div for adding images to the 1st research content-->
+				<div class="research-post1">
+					<div class="research-post1-img" style="float: left;background-image: url(images/rec2.png);"></div>
+
+					<div class="research-post1-img" style="float: right;background-image: url(images/rec22.png);"></div>
+				</div>
+			
+				<p>
+				<span style="font-size: 25px">Home page</span><br>Both of the website looks somewhat similar at first glance. In the main section, both the owner has introducted themselves with a picture of them on the right side of the website. But both of them completely differ from each other. In the website on the right side, the owner has added a short description of who he is and a small introduction of his working experience. The reference website has a yellow and dark...</p>
+			</div></a>
+
+			<!--div for the second research box-->
+			<a href="pages/research.html#cvpage"><div class="home-post">
+				<!--creating a div for adding images to the 2nd research content-->
+				<div class="research-post1">
+					<div class="research-post1-img" style="float: left;background-image: url(images/rec3.png);"></div>
+
+					<div class="research-post1-img" style="float: right;background-image: url(images/rec33.png);"></div>
+				</div>
+			
+				<p>
+				<span style="font-size: 25px">CV page</span><br>The idea of designing the CV page came from the above reference website. Idea of adding the basic personal information in the first division, education history, basic and technical skill and the work experience came from this website. The website on the right side has percentage bar for the technical skill which is quite unique and attractive. It also has a internal navigation bar with buttons...</p>
+			</div></a>
+
+			<!--creating a div for readmore button-->
+			<div class="blog-btn">
+				<a href="pages/blog.html" class="main-button"> Read more</a>
+			</div>
+		</div>
+
+		<!--div created for contact me-->
+		<div style="height: 300px;background-color: #1c1f24;margin-bottom: 1px; border-bottom-right-radius: 8px;border-bottom-left-radius: 8px;">
+			<div style="width: 70%; margin: 0 auto;">
+			<h1 style="text-align: center; font-size: 40px; padding-top: 30px;">Don't hesitate to get in touch with me! I love the challenge of turning your ideas into reality and am always ready to talk through any message.</h1>
+			<div style="height: 50px; padding: 35px 0 0 470px;">
+				<a href="pages/contact.html" class="main-button" style=""> Contact Me</a>
+			</div></div>
+			
+		</div>
+	</section>
+	<!--end of the main section-->
+
+	<!--adding a fixed go to top buttom to the bottom right corener of the page-->
+	<div align="Right"  id="button-top">
+		<a href="#" class="topimg"><img src="images/up.png"></a>
+	</div>
+
+	<!--the footer section-->
+	<footer>
+		<div class="footer-main-div">
+			<!--declaring a ul tag to add social media images-->
+			<ul class="social-media">
+				<h2 style="color: #acacac; font-family:garamond;">Find me on:</h2>
+				<br>
+				<!--adding social media icons-->
+				<li><a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" alt=""/></a></li>
+				<li><a href="https://www.instagram.com" target="_blank"><img src="images/instagram.png" alt=""/></a></li>
+				<li><a href="https://www.youtube.com" target="_blank"><img src="images/youtube.png" alt=""/></a></li>
+				<li><a href="https://www.twitter.com" target="_blank"><img src="images/twitter.png" alt=""/></a></li>
+				<li><a href="https://www.gmail.com" target="_blank"><img src="images/google.png" alt=""/></a></li>
+			</ul>
+			
+		</div>	
+		
+		<!--creating the final division for the page-->
+		<div class= "footer-cr">	
+			<h4 style="color: #6b6e70; font-family:garamond;">&copy Copyright Zerod 2020. All Rights Reserved</h5>	
+		</div>
+	</footer>
+	<!--end of footer section-->
+
+	<!--exporting external js file-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+<!--end of body section-->
+</html>
+
+

@@ -1,0 +1,130 @@
+													/*css for the blog page*/
+
+
+
+/*adding background image to the body section*/													
+body{
+	background-image: url(../images/blogbg.png);
+}
+
+/*creating a div for the page heading and adding the background image*/
+.blog{
+	height: 400px;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/blog.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+/*creating a div for all the blog posts*/
+.blog-div{
+	width: 85%; 
+	margin: 70px auto; 
+	height:4340px;
+	background-color: #F4F4F4;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*creating div for each of the blog posts*/
+.main-content{
+	height: 1000px;
+	width: 95%;
+	margin:0px auto;
+	border-bottom: 2px solid #4f4f4f;
+}
+
+/*formatting the heading of each of the blog posts*/
+.main-content h2{
+	padding: 30px 0;
+	font-size: 40px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #171717;
+}
+
+/*adding blog post date and author*/
+.blog-author{
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0 0 30px 0;
+	color: #5c5c5c;
+}
+
+/*formatting the image of the blog post date and author*/
+.blog-author img{
+	height: 12px;
+}
+
+/*formatting the picture of each of the blog posts*/
+.blog-img{
+	 height: 350px; 
+	 width: 100%;
+	 background-size: cover;
+	 background-position: center;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	 border-radius: 3px;
+}
+
+/*formatting the text contect of each of the blog posts*/
+.main-content p{
+	text-align: justify;
+	font-size: 22px;
+	padding: 50px 3px 20px 0;
+	line-height: 1.7;
+	letter-spacing: 0.3px;
+	color: #4f4f4f;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+/*adding read more button to each of the blog posts*/
+.readmore-btn{
+	padding: 10px 22px;
+	background-color: #444;
+	color: #f4f4f4;
+}
+
+/*adding hover effect to the read more button each of the blog posts*/
+.readmore-btn:hover{
+	cursor: pointer;
+}
+
+/*creating a nav bar for navigating through the recent blog posts*/
+.blog-nav{
+	width: 90%; 
+	margin: 20px auto; 
+	height:600px;
+	background-color: #F4F4F4;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: 0.5s;
+}
+
+/*css for fixing the nav bar*/
+.blog-nav-fixed{
+	position: fixed;
+	left: 75%;
+	top: 10px;
+	float: right;
+}
+
+/*creating a division for each of the nav bar content*/
+.blog-nav-main{
+	width: 90%;
+	height: 110px;
+	margin: 30px auto;
+	border-bottom: 1px solid #4f4f4f;
+}
+
+/*creating a division for  the nav bar text*/
+.blog-nav-main-text{
+	height: 80px;
+	width: 70%;
+	float: right;
+}
+
+/*formatting the nav bar text*/
+.blog-nav-main-text h4{
+	font-size: 13px;
+	color: #4f4f4f;
+	padding: 3px 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+}

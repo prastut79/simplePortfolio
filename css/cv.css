@@ -1,0 +1,125 @@
+														/*css for the cv page*/
+
+/*adding background image to  the body*/														
+body{
+	background-image: url(../images/blogbg.png);
+}
+
+/*creating a div for the fixed internal nav bar*/
+#cv-button{
+	background-color: #E5DEDE;
+	height: 660px; 
+	width: 20%; 
+	float: left;
+	margin: 0 70px;
+	position: fixed;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*div for the nav bar*/
+.cv-div-btn{
+	width: 100%;
+	height: 450px;
+	margin-top: 30px;
+}
+
+/*div for placing internal the nav buttons*/
+.cv-div-btn-div{
+	height: 70px;
+	width: 100%;
+	margin: 20px 0;
+	padding-left: 10px;
+	display:flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+/*formatting the nav buttons*/
+.cv-div-btn a{
+	text-decoration: none;
+	color: #171717;
+	font-size: 35px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 550px;
+	width: 100%;
+	overflow: hidden;
+}
+
+/*adding hover effect to the nav buttons*/
+.cv-div-btn-div:hover{
+	transition: 0.3s;
+	border-left: 7px solid #4f4f4f;
+}
+
+/*the active cv nav button*/
+.active{
+	border-left: 7px solid #4f4f4f;
+}
+
+/*the main content div for the cv */
+#cv-content{
+	background-color: #f4f4f4;
+}
+
+/*a div created to counter the overlapping problem caused by the main nav bar*/
+.godown{
+	height: 70px;
+}
+
+/*a div for each of the deatils of the cv*/
+ .cv-details-div{
+ 	height: 630px; 
+ 	width: 90%; 
+ 	margin: 10px auto;
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.cv-details-div .cv1{
+	height: 350px;
+	margin: 90px 40px;
+	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*css for the personal info details*/
+/*adding an unordered list*/
+.info ul{
+  margin:10px 0;
+}
+
+/*formatting the list*/
+.info ul li{
+  list-style: none;
+  padding: 15px 0 15px 0px;
+  font-size: 22px;
+  color:  #4f4f4f;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*formatting the image*/
+.info img{
+  height: 20px;
+  padding-right: 10px;
+}
+
+/*formatting the list of basic skill*/
+.ul-skill li{
+	font-size:20px;
+}
+
+/*adjusting the technical skill percentage background*/
+.technical-skill{
+	width: 80%; 
+	height:12px; 
+	background-color: grey;
+	border-radius: 20px;
+	margin: 0px 17px;
+}
+
+/*adgusting the percentage of each of the technical skills*/
+.technical-skill-{
+	height:12px; 
+	background-color: #00D3C2;
+	border-radius: 20px;
+}

@@ -1,0 +1,118 @@
+															/* CSS file for index page*/
+
+															
+
+/*css for the 1st page of the webpage*/
+.main-cv {
+	height: 700px;
+	width: 100%;
+	margin-top: 1px;		/*top margin*/
+	margin-bottom: 1px;		/*bottom margin*/
+	background-color: #1c1f24;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	overflow: hidden;					/*hiding any kind of overflow*/
+}
+
+/*css for the div that has the introductory text*/
+.class{
+	width: 50%;
+	height: 700px;
+	 float: left; 
+}
+
+/*allocating the division for the image*/
+.pic{
+	height: 700px;
+	width:50%;
+	float: right;
+	background-color: #191919;
+	border-bottom-left-radius: 80%;   /*adding radius to the botton left of the picture*/
+	overflow: hidden;
+	box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 3px 0 rgba(0, 0, 0, 0.19);		/*adding 3d effect using shadow to the pic*/
+}
+
+/*formating the picture*/
+.pic img{
+	top: 10%;
+	float: left;
+	height: 700px;
+	padding: 0 0px 20px 20px;
+}
+
+/*css for the blog section of the home page*/
+.main-blog{
+	height: 700px; 
+	background-color: #252930; 
+	margin-bottom: 1px;
+}
+
+/*css for short description of posts*/
+.home-post{
+	width: 32%;
+	height: 400px;
+	margin-top: 50px;
+	margin-left: 80px;
+	background-color: #f4f4f4;
+	float: left;
+	border-radius: 20px;
+	box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 3px 0 rgba(0, 0, 0, 0.19);
+	overflow: hidden;
+}
+
+/*formatting the image of the first blog post*/
+.blog-post1-img{
+	height: 230px;
+	width: 100%;
+	background-image: url(../images/blog1.png);
+	background-position: center;
+	background-size: cover;
+}
+
+/*formatting the image of the second blog post*/
+.blog-post2-img{
+	height: 230px;
+	width: 100%;
+	background-image: url(../images/blog2.png);
+	background-position: center;
+	background-size: cover;
+}
+
+/*formatting the text in the blog section*/
+.home-post p{
+	padding: 10px;
+	font-size: 19px;
+	line-height: 1.4;
+	color: #4f4f4f;
+	text-align: justify;
+
+}
+
+/*adding hover effect to the blog post*/
+.home-post:hover{
+	transition: 0.4s;
+	transform: scale(1.02);
+	opacity: 0.7
+}
+
+/*adding read more button to the blog post*/
+.blog-btn{
+	float: right;
+	margin-top: 400px;
+	margin-right: 150px;
+}
+
+/*css for the research section of the home page*/
+.main-research{
+	height: 700px; 
+	background-color: #1c1f24; 
+}
+
+/*css for the image in the home page*/
+.research-post1-img{
+	height: 170px;
+	width: 49%;
+	background-image: url(../images/blog2.png);
+	background-position: center;
+	background-size: cover;
+}

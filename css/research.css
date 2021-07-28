@@ -1,0 +1,28 @@
+													/*css file for the research page*/
+
+/*div for the research content*/
+.main-research{
+	margin: 70px auto;
+	height: 740px;
+	width: 90%;
+	border-bottom: 2px solid #4f4f4f;
+
+}
+
+/*formatting the div created for the webpage image*/
+.main-research-img{
+	height: 300px;
+	width: 49%;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+}
+
+/*adding hover effect to the webpage screenshot*/
+.main-research-img:hover{
+	transform: scale(1.04);
+	opacity: 0.7;
+	transition: 0.3s;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact- Zerod</title>
+	<meta name="description" content="Portfolio"/>
+	<meta name="keywords" content="blog, technology, zerod" />
+	<meta name="author" content="Prastut"/>
+
+	<!-- adding website logo to the title bar-->
+	<link rel="icon" href="../images/logo.png">
+
+	<!-- importing external style.css file-->
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/contact.css">
+
+	<!--internal css-->
+	<style type="text/css">
+		/*css for h1 tag*/
+		 h1{
+		 	text-align: center;
+	 		font-family: candara;
+			font-size: 50px;
+	  		margin:40px 0 0 0; 
+	  		color: #9BA0A0;
+	  		font-weight: bold;
+	  		text-shadow: 0 0 1px #fff;
+		}
+
+		/*css for h3 tag*/
+		h3{
+			color: #717575;
+			text-transform: uppercase;
+			padding: 20px 0 0 0;
+			font-family: candara;
+		}
+	</style>
+<!--closing of head tag-->		
+</head>
+
+<!--opening of body tag-->
+<body style="background-color: #2b2c2c" background="../images/b.png">
+	<!--the header section-->
+	<header>
+		<!--creating division for navigation bar-->
+		<nav class="nav">
+			<!--creating division and inserting website logo-->
+			<div class="logo">
+				<a href="../index.html"><img src="../images/logo.png" alt=""></a>
+			</div>
+			<!--declaring unordered list for navigation buttons-->
+			<div class="nav-buttons">
+			<ul>
+				<!--adding nav buttons-->
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="cv.html">CV</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="research.html">Research</a></li>
+				<li class="active-nav"><a href="contact.html">Contact</a></li>
+							
+			</ul>
+		</nav>
+	</header>
+	<!--end of header section-->
+
+	<!--a division created to counter the overlapping problem caused by the fixed header-->
+	<div class="godown" style="height: 70px"></div>
+	<!--starting of main content of the page-->
+	<section>
+		<div class="heading">
+		<!--heading of the page-->
+		<h1 style="color:#00D3C2; font-size: 120px; text-align: left; padding-left: 100px; background-color: ; width: 50%;">Contact Me</h1>
+		</div>
+		<!--the main section-->
+		<div class="main">
+		<!--declaring next division for contact info-->
+			<div class="contact-info" style="width: 50%; height: 900px; float: left; margin-top: 50px; ">
+				<h1>Contact Details</h1>
+
+
+				<!--addding directional map image-->
+				<div class="link-map">
+					<a href="https://www.google.com/maps/place/34%C2%B040'32.1%22N+135%C2%B029'42.5%22E/@34.675579,135.4933815,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d34.675579!4d135.495136" target="_blank"><img src="../images/map.png"/></a>
+				</div>
+				<!--div created to draw a half margin-->
+				<div style="border: 1px solid #00D3C2; width: 400px; margin: 52px 0 0 130px;"></div>
+				<!--div for adding additional contact info-->
+				<div class="info">
+					<ul>
+						<!--adding contact details-->
+						<li><img src="../images/location.png" style="">1-chōme Shinmachi, Osaka, Japan</li>
+						<li><img src="../images/phone.png">7088315467</li>
+						<li><img src="../images/mail.png"> ZerodSama@gmail.com</li>
+						<a href="https://www.ZerodSama.com" target="_blank" style="text-decoration: none;"><li><img src="../images/world.png"> www.ZerodSama.com</li></a>
+					</ul>
+				</div>
+			</div>
+
+			<!--declaring next division for contact form-->
+			<div class="contact-form" style="width: 50%; max-height: 900px; float: right; margin-top: 50px;">
+				<h1>Shoot a message!</h1>
+				<div class="form-div">
+				<!--adding form to the webpage-->
+				<form class="form" name="messageForm" onsubmit="validateForm()">
+					<h3>Name</h3>
+				    <input type="text" name="name" class="form-text" placeholder="Enter your name">
+				    <h3>E-mail</h3>
+				    <input type="email" name="email" class="form-text" placeholder="Enter your email">
+				    <h3>Message</h3>
+				    <textarea class="form-text" name="message" placeholder="Enter your message"></textarea>
+				   	<a href=""><input type="submit" class="form-btn" value="Send Message"></a>
+				</form>
+				</div>
+			</div>
+
+		</div>
+
+	</section>
+	<!--adding a fixed go to top buttom to the bottom right corener of the page-->
+	<div align="Right"  id="button-top">
+		<a href="#" class="topimg"><img src="../images/up.png"></a>
+	</div>
+	<!--the footer section-->
+	<footer>
+		<div class="footer-main-div">
+			<ul class="social-media">
+				<h2 style="color: #acacac; font-family:garamond;">Find me on:</h2>
+				<br>
+				<!--adding social media icons-->
+				<li><a href="https://www.facebook.com" target="_blank"><img src="../images/facebook.png" alt=""/></a></li>
+				<li><a href="https://www.instagram.com" target="_blank"><img src="../images/instagram.png" alt=""/></a></li>
+				<li><a href="https://www.youtube.com" target="_blank"><img src="../images/youtube.png" alt=""/></a></li>
+				<li><a href="https://www.twitter.com" target="_blank"><img src="../images/twitter.png" alt=""/></a></li>
+				<li><a href="https://www.gmail.com" target="_blank"><img src="../images/google.png" alt=""/></a></li>					
+			</ul>
+			
+			
+		</div>	
+		
+
+		<div class= "footer-cr">
+		<h4 style="color: grey; font-family:Century Gothic;">&copy Copyright ZeroD 2020. All Right Reserved</h4>	
+		</div>
+	</footer>
+	<!--end of footer section-->
+
+	<!--creating a jquery to validate the form-->
+	<script>
+			function validateForm() {
+				var name = document.forms["messageForm"]["name"].value;
+				var email = document.forms["messageForm"]["email"].value;
+				var message = document.forms["messageForm"]["message"].value;
+
+				if (name == "" || email == "" || message == ""){
+					alert("Please fill in all the details.");
+				}
+				else {
+					alert("Thank you for the feedback.\n Will get back to you as soon as possible.");
+				}
+			}
+		</script>
+	<!--exporting external js file-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/script.js"></script>
+</body>
+<!--end of body section-->
+</html>
+
+

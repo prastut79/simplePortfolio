@@ -1,0 +1,180 @@
+							/* CSS for the header, footer and other elements used by all the pages */
+
+
+/*making the auto scrolling smooth*/
+html{
+	scroll-behavior: smooth;
+}
+
+/*removing the defult margin and padding*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*css for changing the text and background color when selecting texts*/
+*::selection {
+    background-color: #bfbfbf;
+    color: #191919;
+}
+
+/*css for the header division*/
+header {
+	background: #191919;
+	height: 70px;
+	width: 100%;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;	
+	position: fixed;
+	overflow: hidden;
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);	/*adding 3d effect using shadow to the pic*/
+	opacity: 1;
+}
+
+
+/*css for the website logo*/
+.logo{
+	width: 10%; 
+	height: 70px;
+	float: left;
+}
+
+/* css for the nav-buttons div that contains the navigation buttons*/
+.nav-buttons{
+	width: 90%; 
+	float: right; 
+	height: 70px;
+}
+
+/*css for the list of nav buttons*/
+nav ul{
+	float: right;
+	padding: 25px 100px 0 0;
+
+} 
+
+/* formatting the list of element of the ul tag*/
+nav ul li{
+	display: inline-block;
+	padding: 0 5px;
+}
+
+/*formatting the text of the nav buttons*/
+nav ul a{	
+	font-family: Century Gothic;
+	font-size: 15px;
+	text-decoration: none;
+	color: #aaa;
+	font-weight: 550px;
+	padding: 10px 20px;
+	transition: 0.5s;
+	border-radius: 1px;
+	box-shadow: 0px 0px 4px #aaa;
+	text-transform: uppercase;
+	transition: 0.5s ease;
+}
+
+/*adding effect to the active nav bar button*/
+.active-nav a{
+	color: #D7E9EA;
+	border: 1.5px solid #00D3C2; 
+	border-radius: 1px;
+	font-weight: bold;
+	font-size: 17px;
+	box-shadow: 0px 0px 8px  #00D3C2;
+	text-shadow: 0px 0px 2px #00D3C2;
+}
+
+/*adding hover effect to the nav buttons*/
+nav a:hover{
+	transition: 0.6s;
+	color: #D7E9EA;
+	box-shadow: 0px 0px 8px  #00D3C2;
+	text-shadow: 0px 0px 2px #00D3C2;
+}
+
+/*formatting the website logo*/
+.logo img{
+	float: left;
+	width:37px;
+	padding-top: 15px;
+	padding-left: 100px;
+}
+
+/*adding a div for the fixed go to top button*/ 
+#button-top {
+	top: 92%;
+	left: 96%;
+	position: fixed;
+	display: none;
+}
+
+/*foramtting the image of the fixed go to top button*/ 
+#button-top img{
+	height: 40px;
+	width: auto;
+	background-color: #00D3C2;
+	box-shadow: 0 0 4px #808080;
+	border-radius: 100%;
+	opacity: 0.3;
+}
+
+/*adding hover effect to the go to top button*/
+#button-top img:hover{
+	transform: scale(1.05);
+	transition: 0.3s;
+	opacity: 1;
+}
+
+/*creating a division for the footer*/
+footer{
+	background: #191919;
+	width: 100%;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+	overflow: hidden;
+}
+
+/*creating a div for adding the social media button*/
+.social-media {
+	height: 100px;
+	text-align: center;
+	padding-top: 40px;
+}
+
+/*creating a horizontal line of the list of the ul*/
+footer ul li{
+	display: inline-block;
+	padding:5px;
+}
+
+/*formatting the social media images*/
+footer img{
+	height: 35px;
+	width: auto;
+	background-color: #bfbfbf;
+	box-shadow: 0 0 4px #bfbfbf;
+	border-radius: 100%;
+}
+
+/*adding hover effect to the social media button*/
+footer img:hover {
+	background-color: #00D3C2;
+	transition: 0.5s;
+	border-radius: 5px;
+	box-shadow: 0 0 6px #00D3C2;
+	transform: scale(1.1);
+}
+
+/*creating a div for the copyright section in the footer*/
+.footer-cr{
+	background-color:#161616; 
+	height: 40px;
+}
+
+/*aligning the copyright text to the center*/
+.footer-cr{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
